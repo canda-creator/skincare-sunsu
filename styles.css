@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --fuente-principal: "Quicksand", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente-principal);
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-item a{
+    color: #000000;
+    font-family: var(--fuente-principal);
+}
+
+.nav-link i{
+font-size: 50px;
+color: #55996f;
+}
+
+.nav-link:hover i{
+    color: #000000;
+}
+
+.nav-link i {
+    font-size: 50px;
+    color: #55996f;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover i {
+    color: #000000;
+}
