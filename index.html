@@ -10,85 +10,203 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fondo">
-        <div class="container-fluid contenedor">
-            <a class="navbar-brand" href="#">
-                <img src="logo.png" alt="Logo Sunsu" class="logo" style="height: 100px" />
+      <div class="container-fluid contenedor">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo Sunsu" class="logo">
+        </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex align-items-center ms-auto order-lg-2">
+        <a class="nav-link me-3" href="#" style="padding: 0;">
+          <i class="bi bi-person-circle fs-2" style="font-size: 30px;"></i>
+        </a>
+        <a class="nav-link" href="#" style="padding: 0;">
+          <i class="bi bi-cart-check-fill fs-2"></i>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-1" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a 
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              id="navbarDropdown"
+              >
+              Productos
             </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Skincare</a></li>
+              <li><a class="dropdown-item" href="#">Maquillaje</a></li>
+              <li><a class="dropdown-item" href="#">Marcas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+  
+        <form class="d-flex me-3 flex-grow-1" role="search" style="min-width: 150px; max-width: 300px;">
+          <input
+            class="form-control flex-grow-1"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search">
+          <button class="btn btn-outline-success ms-2" type="submit">Buscar</button>
+        </form>
+      </div>
+      </div>
+    </nav>
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <video autoplay loop muted playsinline width="100%" height="auto">
+    <source src="./video__main.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+  </video>
+
+
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="image-box position-relative overflow-hidden rounded">
+          <div class="overlay-gray"></div>
+
+          <img src="./490206d7ccc21a88ec6e0c4c6d21df04.jpg" class="img-fluid image" alt="Imagen 1" />
+          <div class="overlay position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h3 class="fw-bold">Skincare</h3>
+            <p>Cuidá tu piel con lo mejor de la cosmética coreana.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagen 2 -->
+      <div class="col-md-6">
+        <div class="image-box position-relative overflow-hidden rounded">
+                      <div class="overlay-gray"></div>
+
+          <img src="IMG_6712.webp" class="img-fluid image" alt="Imagen 2" />
+          <div class="overlay position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h3 class="fw-bold">Maquillaje</h3>
+            <p>Sumergite en el mundo del maquillaje y dejate sorprender.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="text-center parrafo">
+    <div class="centrado">
+  <h2>Sentite radiante, lucí increíble</h2>
+  <p>Descubrí la magia de la cosmética coreana con productos especialmente seleccionados para cuidar tu piel y resaltar tu belleza natural. En Sunsu, combinamos lo mejor del skincare y maquillaje con innovación, calidad y amor por tu bienestar. ¡Explorá, probá y enamorate de cada rutina!</p>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Columna imagen -->
+    <div class="col-md-6">
+      <img src="./D_NQ_NP_963639-MLA73737990870_012024-O.webp" alt="Imagen ejemplo" class="img-fluid rounded" />
+    </div>
+    <!-- Columna texto -->
+    <div class="col-md-6 texto p-4">
+            <h2>Blog</h2>
+
+      <p>
+Los serums coreanos son esenciales en el skincare por su alta concentración de activos que hidratan, iluminan y mejoran la piel. Gracias a sus ingredientes naturales y texturas ligeras, ofrecen resultados visibles y se adaptan a todo tipo de piel.
+      </p>
+      <button class="boton">Ver más</button>
+    </div>
+  </div>
+</div>
+
+  <div class="text-center parrafo2">
+    <div class="centrado">
+  <h1>Marcas</h1>
+    <img src="Romand-Logo.jpg" alt="" width="100px">
+    <img src="logo_wdg_logo_image.png" width="100px"alt="">
+    <img src="4FFBEEED-8B1D-441A-8CA5-09D620F7CB88.webp" width="100px"alt="">
+    <img src="Innisfree-logo.svg.png" width="100px"alt="">
+    <img src="images.png" width="100px"alt="">
+    <img src="laneige-logo-png_seeklogo-334938.png" width="100px"alt="">
+    <img src="MIZON_LOGO_e769bdf1-bf5c-4660-a228-e9401068a8cb_1200x1200.webp" width="100px"alt="">
+    <img src="JGg6CmPUtG03GZG6yYv8zno6Xq.png" width="100px"alt="">
+    <img src="D_NQ_NP_889458-MLU72772400320_112023-O.webp" width="100px"alt="">
+    <img src="3fef46f2c7f7c48e96358db54ff46e5fbedaac56eecbe626b45d8c95afde673b2026.png" width="100px"alt="">
+
+
+
+
+
+
+
+  </div>
+</div>
+
+<footer class="p-4">
+  <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <h5>Categorías</h5>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
         </li>
-        <li class="nav-item dropdown">
-            <a 
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                id="navbarDropdown"
-            >
-                Productos
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Skincare</a></li>
-                <li><a class="dropdown-item" href="#">Maquillaje</a></li>
-                <li><a class="dropdown-item" href="#">Marcas</a></li>
-            </ul>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Productos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
         </li>
     </ul>
-
-<div class="col-3 col-md-3 d-flex align-items-center justify-content-end">
-  <form class="d-flex me-3" role="search">
-    <input
-      class="form-control"
-      type="search"
-      placeholder="Buscar"
-      aria-label="Search"
-      style="width: 150px;"
-    />
-    <button class="btn btn-outline-success ms-2" type="submit">Buscar</button>
-  </form>
-
-  <a class="nav-link me-3" href="#" style="padding: 0;">
-    <i class="bi bi-person-circle" style="font-size: 30px;"></i>
+    </div>
+    <div class="col">
+      <h5>Redes Sociales</h5>
+<div class="social-media">
+  <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+    <i class="fa-brands fa-instagram"></i>
   </a>
-
-  <a class="nav-link" href="#" style="padding: 0;">
-    <i class="bi bi-cart-check-fill" style="font-size: 30px;"></i>
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+  <a href="https://www.pinterest.com/" target="_blank" rel="noopener">
+    <i class="fa-brands fa-pinterest"></i>
   </a>
 </div>
 
+    </div>
+    <div class="col">
+      <h5>Contactanos</h5>
+
+      <ul class="list-unstyled">
+        <li>+5491167888415</li>
+        <li>sunsutienda@gmail.com</li>
+      </ul>
+    </div>
+  </div>
 </div>
-</div>
-</nav>
-
-    </nav>
-
-<video autoplay loop muted playsinline width="100%" height="auto">
-  <source src="./video__main.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de video.
-</video>
-
+  </footer>
+  <script src="https://kit.fontawesome.com/3a4667918d.js" crossorigin="anonymous"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"
   ></script>
+
 </body>
 </html>
